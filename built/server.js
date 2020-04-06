@@ -20,7 +20,7 @@ class NodeAPIServer {
         this.initMiddleware();
     }
     async start() {
-        this.server.listen(3000);
+        this.server.listen(process.env.PORT || 3000);
     }
     initMiddleware() {
         this.app

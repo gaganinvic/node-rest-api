@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class NodeAPIEnvConst {
     constructor() {
-        this.databaseURI = "mongodb://localhost:27010/api-localhost";
+        this.databaseURI = "mongodb+srv://gagan:gagan@cluster0-afzjv.mongodb.net/test?retryWrites=true&w=majority";
         this.jwtSecret = "mysecret";
         this.jwtExpire = "1h";
     }

@@ -27,7 +27,7 @@ export class NodeAPIServer {
     }
 
     public async start() {
-        this.server.listen(3000);
+        this.server.listen(process.env.PORT || 3000);
     }
 
     public initMiddleware() {
